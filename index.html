@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LITGang</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">LITGang</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#crew">Crew</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimony">Testimony</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item">
+              <a class="social-icon" href="#"
+                ><i class="ri-dribbble-line"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="social-icon" href="#"><i class="ri-github-line"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="social-icon" href="#"
+                ><i class="ri-instagram-line"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="social-icon" href="#"
+                ><i class="ri-youtube-line"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- home start -->
+    <section id="home" class="d-flex align-items-center min-vh-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="display-1 fw-bold" data-aos="flip-right">
+              Howdy! <span class="text-brand">LITGang.</span>
+            </h1>
+            <h3 data-aos="flip-up" data-aos-delay="300" class="mt-3 mb-5">
+              we are <span id="auto-type" class="text-brand"></span>
+            </h3>
+            <a data-aos="flip-up" data-aos-delay="600" href="#contact" class="btn btn-brand">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home end -->
+
+    <!-- services start -->
+    <section id="services" class="section-padding section-connector">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="setion-title text-center" data-aos="fade-up" data-aos-delay="100">
+              <h1>Services</h1>
+              <p>
+                In our services, we always provide creative solutions through
+                editing, graphic design, photography, and videography.
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-4 text-center">
+          <div class="col-lg-3 col-sm-6" data-aos="flip-left" data-aos-delay="200">
+            <div class="service py-5 px-3 border">
+              <div class="service-icon">
+                <i class="ri-macbook-line"></i>
+              </div>
+              <h5 class="mt-4">Editing</h5>
+              <p>
+                We accept editing projects, such as Visual Effects, Cinematic,
+                MV, etc.
+              </p>
+              <a href="#" class="custom-link">
+                <span>Read More</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6" data-aos="flip-left" data-aos-delay="200">
+            <div class="service py-5 px-3 border">
+              <div class="service-icon">
+                <i class="ri-pencil-ruler-2-line"></i>
+              </div>
+              <h5 class="mt-4">Desing Graphic</h5>
+              <p>
+                We accept design projects, such as Logos, Presentation, Maskot,
+                etc.
+              </p>
+              <a href="#" class="custom-link">
+                <span>Read More</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6" data-aos="flip-right" data-aos-delay="200">
+            <div class="service py-5 px-3 border">
+              <div class="service-icon">
+                <i class="ri-camera-line"></i>
+              </div>
+              <h5 class="mt-4">Photography</h5>
+              <p>
+                We accept photo projects, such as wedding, family photo, event,
+                etc.
+              </p>
+              <a href="#" class="custom-link">
+                <span>Read More</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6" data-aos="flip-right" data-aos-delay="200">
+            <div class="service py-5 px-3 border">
+              <div class="service-icon">
+                <i class="ri-folder-video-line"></i>
+              </div>
+              <h5 class="mt-4">Videography</h5>
+              <p>
+                We accept video projects, such as documentation, cinematics,
+                etc.
+              </p>
+              <a href="#" class="custom-link">
+                <span>Read More</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services end -->
+
+    <!-- project start -->
+    <section id="project" class="section-padding section-connector">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="setion-title text-center" data-aos="fade-up" data-aos-delay="100">
+              <h1>Our Project</h1>
+              <p>
+                Currently, most of our projects are in video form. Especially
+                videography and motion graphics. You can check out our project
+                below!
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-lg-4 col-sm-6" data-aos="flip-up" data-aos-delay="100">
+            <div class="project">
+              <img src="Asset/images/p1.svg" alt="" />
+              <div class="content">
+                <a href="#" class="btn btn-outline-light">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6" data-aos="flip-up" data-aos-delay="120">
+            <div class="project">
+              <img src="Asset/images/p2.svg" alt="" />
+              <div class="content">
+                <a href="#" class="btn btn-outline-light">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6" data-aos="flip-up" data-aos-delay="140">
+            <div class="project">
+              <img src="Asset/images/p3.svg" alt="" />
+              <div class="content">
+                <a href="#" class="btn btn-outline-light">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6" data-aos="flip-up" data-aos-delay="160">
+            <div class="project">
+              <img src="Asset/images/p4.svg" alt="" />
+              <div class="content">
+                <a href="#" class="btn btn-outline-light">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6" data-aos="flip-up" data-aos-delay="180">
+            <div class="project">
+              <img src="Asset/images/p5.svg" alt="" />
+              <div class="content">
+                <a href="#" class="btn btn-outline-light">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6" data-aos="flip-up" data-aos-delay="200">
+            <div class="project">
+              <img src="Asset/images/p6.svg" alt="" />
+              <div class="content">
+                <a href="#" class="btn btn-outline-light">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="setion-title text-center" data-aos="fade-up" data-aos-delay="50">
+                <h1>Clients I've worked with</h1>
+                <p>
+                  If you want to order our services, you can contact us via the
+                  social media below!
+                </p>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-sm-6" data-aos="zoom-in" data-aos-delay="50">
+              <div class="client p-5 border">
+                <img src="Asset/images/logo1.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6" data-aos="zoom-in" data-aos-delay="50">
+              <div class="client p-5 border">
+                <img src="Asset/images/logo2.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6" data-aos="zoom-in" data-aos-delay="50">
+              <div class="client p-5 border">
+                <img src="Asset/images/logo3.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6" data-aos="zoom-in" data-aos-delay="50">
+              <div class="client p-5 border">
+                <img src="Asset/images/logo4.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6" data-aos="zoom-in" data-aos-delay="50">
+              <div class="client p-5 border">
+                <img src="Asset/images/logo5.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6" data-aos="zoom-in" data-aos-delay="50">
+              <div class="client p-5 border">
+                <img src="Asset/images/logo6.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6" data-aos="zoom-in" data-aos-delay="50">
+              <div class="client p-5 border">
+                <img src="Asset/images/logo7.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6" data-aos="zoom-in" data-aos-delay="50">
+              <div class="client p-5 border">
+                <img src="Asset/images/logo8.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project end -->
+
+    <!-- crew start -->
+    <section id="crew" class="section-padding section-connector">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="setion-title text-center" data-aos="fade-up" data-aos-delay="100">
+              <h1>Meet Our Team Member</h1>
+              <p>
+                The LITGang team comprises numerous crew members, each
+                possessing distinct areas of expertise.
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-3 col-sm-6" data-aos="flip-left" data-aos-delay="100">
+            <div class="team-member border py-3">
+              <div class="team-head p-3">
+                <img src="Asset/images/crew1.svg" class="img-fluid" />
+                <small>Editor</small>
+                <h5 class="mb-0">Sarah Taylor</h5>
+
+                <ul
+                  class="navbar-nav flex-row align-items-center justify-content-center mt-3"
+                >
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-dribbble-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-github-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-instagram-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-youtube-line"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6" data-aos="flip-down" data-aos-delay="120">
+            <div class="team-member border py-3">
+              <div class="team-head p-3">
+                <img src="Asset/images/crew2.svg" class="img-fluid" />
+                <small>Graphic Designer</small>
+                <h5 class="mb-0">Jane Smith</h5>
+
+                <ul
+                  class="navbar-nav flex-row align-items-center justify-content-center mt-3"
+                >
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-dribbble-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-github-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-instagram-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-youtube-line"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6" data-aos="flip-down" data-aos-delay="140">
+            <div class="team-member border py-3">
+              <div class="team-head p-3">
+                <img src="Asset/images/crew3.svg" class="img-fluid" />
+                <small>Photographer</small>
+                <h5 class="mb-0">Michael Wilson</h5>
+
+                <ul
+                  class="navbar-nav flex-row align-items-center justify-content-center mt-3"
+                >
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-dribbble-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-github-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-instagram-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-youtube-line"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6" data-aos="flip-right" data-aos-delay="160">
+            <div class="team-member border py-3">
+              <div class="team-head p-3">
+                <img src="Asset/images/crew4.svg" class="img-fluid" />
+                <small>Videographer</small>
+                <h5 class="mb-0">Jessica Anderson</h5>
+
+                <ul
+                  class="navbar-nav flex-row align-items-center justify-content-center mt-3"
+                >
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-dribbble-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-github-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-instagram-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-youtube-line"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- crew end -->
+
+    <!-- testimony start -->
+    <section id="testimony" class="section-padding section-connector">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="setion-title text-center padding" data-aos="fade-up" data-aos-delay="50">
+              <h1>Our Client Saying</h1>
+              <p>These are some comments after using our services.</p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <!-- slider -->
+        <div class="row text-center" data-aos="flip-down" data-aos-delay="100">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="testimony p-4 ">
+                            <div class="comment">
+                                <img src="Asset/images/pp1.svg" alt="">
+                                <h4>Anton Deverson</h4>
+                                <div class="icon-rating">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-line"></i>
+                                </div>
+                                <p class="mb-">"I like using your services LITGang, the service is fast and quality."</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="testimony p-4 ">
+                            <div class="comment">
+                                <img src="Asset/images/pp2.svg" alt="">
+                                <h4>L. Darwin</h4>
+                                <div class="icon-rating">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <p class="mb-">"I like the results, I will recommend you guys to my friends."</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <div class="testimony p-4 ">
+                            <div class="comment">
+                                <img src="Asset/images/pp3.svg" alt="">
+                                <h4>Lalisa</h4>
+                                <div class="icon-rating">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <p class="mb-">"I ordered documentation services for my wedding, and we both loved it."</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- slide -->
+                     <div class="swiper-slide">
+                        <div class="testimony p-4 ">
+                            <div class="comment">
+                                <img src="Asset/images/pp4.svg" alt="">
+                                <h4>Edwin Kurnia</h4>
+                                <div class="icon-rating">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-line"></i>
+                                </div>
+                                <p class="mb-">"I like the results of the project, good and fast. It's not in vain that I ordered your services. Worth giving tips."</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimony end -->
+
+    <!-- contact start -->
+    <section id="contact" class="section-connector">
+        <div class="container section-padding">
+          <div class="row">
+            <div class="col-12">
+              <div class="setion-title text-center" data-aos="fade-up" data-aos-delay="100">
+                <h1>Our Contact</h1>
+                <p>
+                    You can send messages or suggestions below!
+                </p>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center" data-aos="flip-up" data-aos-delay="100">
+            <div class="col-md-8">
+                <form action="#" class="row g-3">
+                    <div class="form-group col-md-4">
+                        <input type="text" class="form-control" placeholder="Full Name">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <input type="text" class="form-control" placeholder="Phone">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <input type="email" class="form-control" placeholder="Email Address">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <textarea name="" class="form-control" placeholder="Enter Your Message" rows="4"></textarea>
+                    </div>
+                    <div class="form-group col-md-12 text-center">
+                        <button class="btn btn-brand">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+
+        <!-- footer start -->
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row gy-5">
+                        <div class="col-md-4">
+                            <h4 class="text-white">
+                                CEO - ARKA ADIANA
+                            </h4>
+                            <p>#WEARELIT</p>
+                            <ul class="navbar-nav flex-row">
+                                <li class="nav-item">
+                                  <a class="social-icon" href="#"
+                                    ><i class="ri-dribbble-line"></i
+                                  ></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="social-icon" href="#"><i class="ri-github-line"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="social-icon" href="#"
+                                    ><i class="ri-instagram-line"></i
+                                  ></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="social-icon" href="#"
+                                    ><i class="ri-youtube-line"></i
+                                  ></a>
+                                </li>
+                              </ul>
+                        </div>
+                        <div class="col-md-3 ms-auto">
+                            <h4 class="text-white">Location</h4>
+                            <ul>
+                                <li>Denpasar Selatan, Bali</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h4 class="text-white">Contact</h4>
+                            <ul>
+                                <li>Email: arkaadiana.lit@gmail.com</li>
+                                <li>Phone (+62 87758058885)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <p class="mb-0">Copyright Disclaimer under Section 107 of the copyright act 1976</p>
+                        </div>
+
+                        <div class="col-auto">
+                            <p class="mb-0">Design by Arka Adiana</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+
+
+      </section>
+      <!-- contact end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      var typed = new Typed("#auto-type", {
+        strings: ["Editor", "Designer", "Photographer", "Videographer"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 48,
+        centeredSlides: true,
+        autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+        },
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+        breakpoinits: {
+            0: {
+                slidesPerView: 1,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            1024: {
+                slidesPerView: 2,
+            },
+        },
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+        });
+    </script>
+  </body>
+</html>
