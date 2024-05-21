@@ -1,4 +1,4 @@
-# FINAL PROJECT BACK-END
+# FINAL PROJECT FRONT-END
 
 Repository for Front-END final projects
 
